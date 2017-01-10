@@ -12,6 +12,14 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/logo"
+            android:id="@+id/button_settings"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,14 +69,14 @@
                 android:text="Check Test"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="28dp"
+                android:textSize="28sp"
                 android:id="@+id/tv1" />
 
             <EditText
                 android:hint="If I appear, my sharedPref key is : isEnabled"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:id="@+id/etDis" />
 
 
@@ -94,9 +102,16 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textStyle="bold" />
 
-
-
         </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/androidLogo"
+
+            />
     </RelativeLayout>
+    <!--android:src="@drawable/whitedroid"-->
     <!--Fin Relative Layout 2-->
 </LinearLayout>
